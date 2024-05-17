@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-image: url(img\fundo-topo.jpg);
+    padding: 10px 0;
+}
+header h1{
+    margin: 0;
+    height: 84px;
+    margin-right: 10px;
+    background-image: url(\img\patinha-preta.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+    padding: 27px 0;
+}
+li{
+    display: inline;
+    
+}
+nav li{
+    
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: chartreuse;
+}
+
+/*estilos*/
+#ItemContato{
+    background-image: ;
+}
+
+/*estilos recorrentes*/
+.fundo-verde{
+    background-color: #bdff9b;
+}
+.conteiner{
+    width: 900;
+    margin: 0 auto;
+    padding: 56px;
+}
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-conteiner.col{
+    width: 430px;
+}
