@@ -28,8 +28,12 @@ li{
     
 }
 nav li{
-    display: ;
-    
+    display: inline;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center right;
 }
 nav a{
     text-decoration: none;
@@ -39,9 +43,37 @@ nav a:hover{
     color: chartreuse;
 }
 
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd412;
+    padding: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+iframe{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
 /*estilos*/
 #ItemContato{
-    background-image: ;
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#produto .flex-conteiner, #contato, #flex-conteiner{
+    margin-top: 43px;
 }
 
 /*estilos recorrentes*/
