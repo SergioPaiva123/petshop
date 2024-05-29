@@ -83,7 +83,7 @@ h2{
 .conteiner{
     width: 900;
     margin: 0 auto;
-    padding: 56px;
+    padding: 56px 0;
 }
 .flex-conteiner{
     display: flex;
@@ -125,4 +125,16 @@ h2{
 }
 textarea{
     resize: none;
+}
+footer{
+    text-align: center;
+    padding: 20px auto;
+}
+footer hr{
+    border: none;
+    height: 1px;
+    background-color: #91e467;
+}
+footer p{
+    padding: 20px;
 }
